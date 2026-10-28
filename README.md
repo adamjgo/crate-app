@@ -12,7 +12,7 @@ This repository holds the downloads and install notes. Get the app from the [lat
 
 - A Mac with Apple silicon (M1 or later), macOS 13 or newer
 - The Apple Music app, with your DJ tracks in its library as files on your Mac
-- Free disk space for the app, its analysis data and backups of your Apple Music library
+- About 1 GB of free disk space for the app (the download is about 270 MB), plus room for analysis data and backups of your Apple Music library
 - An internet connection the first time you run it (see below)
 - Optional: an [Anthropic API key](https://console.anthropic.com) for Discover and chat-based playlist building. Everything else works without one.
 
