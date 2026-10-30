@@ -20,11 +20,7 @@ This repository holds the downloads and install notes. Get the app from the [lat
 
 1. Download `Crate.dmg` from the [latest release](../../releases/latest).
 2. Open it and drag **Crate** into **Applications**.
-3. The first launch needs one extra step, because Crate isn't signed with an Apple Developer ID yet. Double-click Crate and macOS will say "Apple could not verify Crate is free of malware". Click **Done** (not Move to Bin), then either:
-   - Open **System Settings → Privacy & Security**, scroll down to the Security section, find the message that Crate was blocked, click **Open Anyway**, and enter your password. The button only appears after you've tried to open Crate, and for about an hour afterwards. (On macOS 15 and later, right-click → Open no longer works.)
-   - Or in Terminal, which skips the warning: `xattr -dr com.apple.quarantine /Applications/Crate.app`
-
-You only need to do this once.
+3. Open Crate. macOS may say it was downloaded from the internet and ask if you're sure: click **Open**. Crate is signed and notarised by Apple, so there's nothing else to do.
 
 ## First launch
 
